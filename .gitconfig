@@ -1,0 +1,21 @@
+[user]
+	name = Sym Roe
+	email = sym.roe@talusdesign.co.uk
+[core]
+	#editor = mate -wl1
+	vim
+[color]
+        branch = auto
+        diff = auto
+        interactive = auto
+        status = auto
+        ui = true
+[branch]
+	autosetuprebase = always
+[github]
+	user = symroe
+	token = dd04bfe56a8df551985a30659e6d6797
+[alias]
+        log-json = log --pretty=format:'\"%h\": {%n  \"commit\": \"%H\",%n  \"author\": \"%an <%ae>\",%n  \"date\": \"%ad\",%n  \"message\": \"%s\"%n}'
+[ghi]
+	token = 84abf53272b4bb91cedde99c3adad753574cf1e3
