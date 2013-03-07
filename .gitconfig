@@ -11,15 +11,10 @@
 	ui = true
 [branch]
 	autosetuprebase = always
-[github]
-	user = symroe
-	token = dd04bfe56a8df551985a30659e6d6797
 [alias]
         log-json = log --pretty=format:'\"%h\": {%n  \"commit\": \"%H\",%n  \"author\": \"%an <%ae>\",%n  \"date\": \"%ad\",%n  \"message\": \"%s\"%n}'
         log-hashes = log --pretty=format:'%H'
 	log-nice = log --graph --pretty=format:'%C(yellow)%h%Creset%C(cyan)%d%Creset %s %C(green)(%cn, %cr)%Creset'
 	story = flow feature start
-[ghi]
-	token = 84abf53272b4bb91cedde99c3adad753574cf1e3
 [push]
 	default = matching
